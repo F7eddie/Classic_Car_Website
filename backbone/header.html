@@ -17,17 +17,17 @@ session_start();
         <div class="container navbar">
             <div class="logo">Old Timer Motors Co.</div>
             <ul class="nav-links">
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="hire.php">Hire</a></li>
-                <li><a href="testimonials.php">Testimonials</a></li>
-                <li><a href="contact.php">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="hire.html">Hire</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 
                 <!-- Always shows "Account" -->
                 <li>
                     <?php if (isset($_SESSION['user'])): ?>
-                        <a href="account.php">Account</a>
+                        <a href="account.html">Account</a>
                     <?php else: ?>
-                        <a href="login.php">Account</a>
+                        <a href="login.html">Account</a>
                     <?php endif; ?>
                 </li>
 

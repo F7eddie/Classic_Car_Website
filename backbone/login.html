@@ -1,9 +1,9 @@
 <?php
 session_start();
-include __DIR__ . '/db.php';
+include __DIR__ . '/db.html';
 
 if (isset($_SESSION['user'])) {
-    header("Location: account.php");
+    header("Location: account.html");
     exit();
 }
 
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'name'  => $user['name'],
                 'email' => $user['email']
             ];
-            header("Location: account.php");
+            header("Location: account.html");
             exit();
         } else {
             $error = "Invalid email or password.";
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
 
 <section class="hero" style="height: auto; min-height: 90vh; padding: 140px 0;">
     <div class="container hero-content">
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
 
             <p style="text-align:center; margin-top:20px;">
-                Don't have an account? <a href="register.php">Create one</a>
+                Don't have an account? <a href="register.html">Create one</a>
             </p>
         </div>
     </div>

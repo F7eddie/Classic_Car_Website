@@ -1,16 +1,16 @@
 <?php
 session_start();
-include __DIR__ . '/db.php';
+include __DIR__ . '/db.html';
 
 if (!isset($_SESSION['user'])) {
-    header("Location: login.php");
+    header("Location: login.html");
     exit();
 }
 
 $user = $_SESSION['user'];
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'header.html'; ?>
 
 <section style="padding: 140px 0 100px; background:#f8f3ea;">
     <div class="container">
@@ -29,7 +29,7 @@ $user = $_SESSION['user'];
         </div>
 
         <div style="text-align:center;">
-            <a href="logout.php" class="btn btn-primary" style="background:#c44; color:white;">Logout</a>
+            <a href="logout.html" class="btn btn-primary" style="background:#c44; color:white;">Logout</a>
         </div>
     </div>
 </section>
