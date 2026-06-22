@@ -1,0 +1,94 @@
+<link
+  href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+  rel="stylesheet">
+
+<header>
+  <link rel="stylesheet" href="../style.css">
+  <div class="container navbar">
+    <div class="logo">Old Timer Motors Co.</div>
+    <ul class="nav-links">
+      <li><a href="../index.php">Home</a></li>
+      <li><a href="../backbone/hire.php">Hire</a></li>
+      <li><a href="../backbone/testimonials.php">Testimonials</a></li>
+      <li><a href="../backbone/contact.php">Contact</a></li>
+      <li><a href="../backbone/login.php">Account</a></li>
+    </ul>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-panel">
+      <h1>Hire Here.</h1>
+      <p>
+        Hire beautifully restored classic cars for weddings, events, photoshoots, and collectors.
+      </p>
+      <div class="btn-group">
+        <a href="contact.php" class="btn btn-primary">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2>Classics To Hire </h2>
+      <p>Amazing classics available for hire RIGHT NOW!</p>
+    </div>
+
+    <div class="cars-grid">
+
+      <div class="car-card">
+        <img src="../Images/bugatti_1.jpg" alt="Classic Car">
+        <div class="car-content">
+          <h3>1924 Bugatti Type 35 · RACE</h3>
+          <p>Fully restored racing dream with emaculate performance</p>
+          <a href="../hire/bugatti_hire.php" class="price">Hire from £230/day</a>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img src="../Images/chevrolet_1.jpg" alt="Classic Car">
+        <div class="car-content">
+          <h3>1949 Chevrolet V8 Pick-up Truck · MUSSEL</h3>
+          <p>Loud heavy chunk of metal to make heads turn!</p>
+          <a href="../hire/chevrolet_hire.php" class="price">Hire from £185/day</a>
+        </div>
+      </div>
+
+      <div class="car-card">
+        <img src="../Images/austin_2.jpg" alt="Classic Car">
+        <div class="car-content">
+          <h3>1926 Authentic Austin 7 · COMMERCIAL</h3>
+          <p>Tiny and charming peice of history with riding elegance</p>
+          <a href="../hire/austin_hire.php" class="price">Hire from £125/day</a>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="container about-content">
+    <img src="../Images/bottom_main.jpg" alt="Classic interior">
+
+    <div class="about-text">
+      <h2>Driven by History</h2>
+      <p>
+        We specialise in sourcing, restoring and hiring exceptional classic vehicles with character and heritage.
+      </p>
+      <a href="testimonials.php" class="btn btn-primary">Testimonials</a>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <p> 2026 Old Timer Motors Co. — Classic Car Hire & Sales</p>
+  </div>
+</footer>

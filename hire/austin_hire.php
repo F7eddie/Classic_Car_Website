@@ -1,0 +1,63 @@
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <header>
+    <link rel="stylesheet" href="../style.css">
+    <div class="container navbar">
+      <div class="logo">Old Timer Motors Co.</div>
+      <ul class="nav-links">
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../backbone/hire.php">Hire</a></li>
+        <li><a href="../backbone/buy.php">Buy</a></li>
+        <li><a href="../backbone/testimonials.php">Testimonials</a></li>
+        <li><a href="../backbone/contact.php">Contact</a></li>
+        <li><a href="../backbone/login.php">Account</a></li>
+      </ul>
+    </div>
+  </header>
+  
+  <div class="product-page">
+
+  <div class="gallery">
+
+    <img id="mainImage"
+      src="../Images/austin_3.jpg"
+      class="main-image">
+
+    <div class="thumbnails">
+      <img src="../Images/austin_2.jpg" onclick="changeImage(this)">
+      <img src="../Images/austin_3.jpg" onclick="changeImage(this)">
+    </div>
+
+  </div>
+
+  <div class="car-info">
+    <h1>1926 Authentic Austin 7 · COMMERCIAL</h1>
+    <p class="price">Hire from £125/day</p>
+
+    <p>
+      Tiny and charming peice of history with riding elegance
+    </p>
+    <p>
+      The 1924 Austin 7, affectionately known as the "Baby Austin", was a revolutionary compact 
+      car that motorized the British public. It was powered by a 747cc, 
+      four-cylinder side-valve engine, capable of generating 10.5 to 12 bhp and reaching speeds up to 45-50 mph. 
+
+    </p>
+    <a href="../backbone/contact.php" class="btn btn-primary"> CHECK AVAILABILITY!</a>
+    
+  </div>
+
+</div>
+
+  
+<footer>
+  <div class="container">
+    <p>2026 Old Timer Motors Co. — Classic Car Hire & Sales</p>
+  </div>
+</footer>
+
+<script>
+  function changeImage(image) {
+    document.getElementById("mainImage").src = image.src;
+  }
+</script>

@@ -1,0 +1,40 @@
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <header>
+    <link rel="stylesheet" href="../style.css">
+    <div class="container navbar">
+      <div class="logo">Old Timer Motors Co.</div>
+      <ul class="nav-links">
+        <li><a href="../index.php">Home</a></li>
+        <li><a href="../backbone/hire.php">Hire</a></li>
+        <li><a href="../backbone/testimonials.php">Testimonials</a></li>
+        <li><a href="../backbone/contact.php">Contact</a></li>
+        <li><a href="../backbone/login.php">Account</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+        <div class="hero-panel">
+            <h1>Contact Us</h1>
+            <p>
+                Contact us on +44 1234 567890 
+            </p>
+            <p>
+                Or email at 'oldtimermotors@contact.com'
+            </p>
+            
+            
+            <div class="btn-group">
+                <button href="home.html" class="btn btn-primary">Email Us Now!</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Classic Drive Co. — Classic Car Hire & Sales</p>
+    </div>
+  </footer>

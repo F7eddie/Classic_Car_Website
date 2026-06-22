@@ -1,0 +1,36 @@
+<?php
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Timer Motors Co.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">Old Timer Motors Co.</div>
+            <ul class="nav-links">
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="hire.php">Hire</a></li>
+                <li><a href="testimonials.php">Testimonials</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                
+                <!-- Always shows "Account" -->
+                <li>
+                    <?php if (isset($_SESSION['user'])): ?>
+                        <a href="account.php">Account</a>
+                    <?php else: ?>
+                        <a href="login.php">Account</a>
+                    <?php endif; ?>
+                </li>
+
+            </ul>
+        </div>
+    </header>

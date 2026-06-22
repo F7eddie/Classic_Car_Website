@@ -1,0 +1,71 @@
+<?php
+session_start();
+include __DIR__ . '/db.php';
+
+if (isset($_SESSION['user'])) {
+    header("Location: account.php");
+    exit();
+}
+
+$error = '';
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $email    = trim($_POST['email']);
+    $password = $_POST['password'];
+
+    try {
+        $stmt = $pdo->prepare("SELECT id, name, email, password FROM users WHERE email = ?");
+        $stmt->execute([$email]);
+        $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+        if ($user && password_verify($password, $user['password'])) {
+            $_SESSION['user'] = [
+                'id'    => $user['id'],
+                'name'  => $user['name'],
+                'email' => $user['email']
+            ];
+            header("Location: account.php");
+            exit();
+        } else {
+            $error = "Invalid email or password.";
+        }
+    } catch (Exception $e) {
+        $error = "Database error. Please try again.";
+    }
+}
+?>
+
+<?php include 'header.php'; ?>
+
+<section class="hero" style="height: auto; min-height: 90vh; padding: 140px 0;">
+    <div class="container hero-content">
+        <div class="hero-panel" style="max-width:420px; background:rgba(255,253,248,0.98);">
+            <h1 style="color:#4a3c2d; text-align:center;">Welcome Back</h1>
+            <p style="text-align:center; color:#6d5b45;">Sign in to your account</p>
+
+            <?php if ($error): ?>
+                <div style="background:#f8d7da; color:#721c24; padding:12px; border-radius:12px; margin:15px 0; text-align:center;">
+                    <?= htmlspecialchars($error) ?>
+                </div>
+            <?php endif; ?>
+
+            <form method="POST">
+                <input type="email" name="email" class="form-input" placeholder="Email Address" required>
+                <input type="password" name="password" class="form-input" placeholder="Password" required>
+                <button type="submit" class="btn btn-primary" style="width:100%; padding:16px;">Login</button>
+            </form>
+
+            <p style="text-align:center; margin-top:20px;">
+                Don't have an account? <a href="register.php">Create one</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Old Timer Motors Co. — Classic Car Hire & Sales</p>
+    </div>
+</footer>
+
+</body>
+</html>

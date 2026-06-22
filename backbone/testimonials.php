@@ -1,0 +1,154 @@
+<?php include 'header.php'; ?>
+<section class="hero">
+  <div class="container hero-content">
+    <div class="hero-panel">
+      <h1>Testimonials</h1>
+    </div>
+  </div>
+</section>
+<section style="padding: 140px 0 100px; background: #f8f3ea;">
+    <div class="container">
+        
+        
+    
+    <div class="section-title" style="margin-bottom: 60px;">
+            <h2 style="font-family: 'Cormorant Garamond', serif; font-size: 4.2rem; color: #6d5b45; margin-bottom: 15px;">
+                Hear what our customers say
+            </h2>
+            <p style="font-size: 1.25rem; color: #8a7356;">
+                Real experiences from happy customers who trusted us with their special days.
+            </p>
+        </div>
+
+        <div class="testimonials-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px;">
+            
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">ET</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Emily Thompson</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Wedding Client • June 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "I recently hired the Bugatti Type 35 from this website. Not only was it practical and efficient, but when above and beyond to support myself and my preferences"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">JB</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">James Bennett</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Car Collector • May 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "This website was brillient! Very diverse and full of range. Highly recommend!"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">SC</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Sophia Clarke</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Photoshoot • April 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "This website was reccomend to me by a friend who has gone through the process of hiring a Austin 7 for her self and her daughter who is a wheelchair user. 
+                    She said that it was the best to go with as it offers a spectrum of offers and deals which accommodate all. I can totally see why she recomended this to me, it has had exactly what I needed."
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★☆</div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">OH</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Oliver Harrington</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Anniversary • March 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "Very well thought out website, easy to use and incredibly supportive"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">MR</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Mia Robinson</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Wedding Client • February 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "Helped my mum to hire The Chevy Truck in the last couple of days. This website showed a pragmatic, 
+                    hands on and fast approach which made teaching my 67 year old mum a breezy process"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+            <!-- Testimonial 6 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">LW</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Liam Whitaker</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Event Hire • January 2025</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "Great communication,layed out structure!"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★☆</div>
+            </div>
+
+            <!-- Testimonial 7 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">AH</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Amelia Hayes</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Prom Night • December 2024</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "Car hire is on fire! What a great website"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+            <!-- Testimonial 8 -->
+            <div class="testimonial-card" style="background: white; padding: 35px; border-radius: 24px; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+                <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                    <div style="width: 60px; height: 60px; background: #e5d3be; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; color: #6d5b45; font-weight: bold;">TF</div>
+                    <div>
+                        <h4 style="margin: 0; color: #4a3c2d;">Thomas Foster</h4>
+                        <p style="margin: 0; color: #8a7356; font-size: 0.95rem;">Car Buyer • November 2024</p>
+                    </div>
+                </div>
+                <p contenteditable="true" style="color: #5c4c3b; line-height: 1.7; min-height: 100px;">
+                    "Provides useful information in a simplistic way, great for neurodiverse minds like myself"
+                </p>
+                <div style="margin-top: 15px; color: #8a7356;">★★★★★</div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<?php include '../footer.php'; ?>
+</body>
+</html>
