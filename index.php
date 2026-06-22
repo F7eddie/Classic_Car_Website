@@ -1,0 +1,65 @@
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <header>
+    <link rel="stylesheet" href="style.css">
+    <div class="container navbar">
+      <div class="logo">Old Timer Motors Co.</div>
+      <ul class="nav-links">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="backbone/hire.php">Hire</a></li>
+        <li><a href="backbone/testimonials.php">Testimonials</a></li>
+        <li><a href="backbone/contact.php">Contact</a></li>
+        <li><a href="backbone/login.php">Account</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-panel">
+        <h1>Timeless Classics.</h1>
+        <p>
+          Hire beautifully restored classic cars for weddings, events, photoshoots, and collectors.
+        </p>
+        <div class="btn-group">
+          <a href="backbone/hire.php" class="btn btn-primary">Browse Cars</a>
+          <a href="backbone/contact.php" class="btn btn-primary">Book a Viewing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Who Are We?</h2>
+        <p>Here at Old Timer Motors Co. we invest all of our time and focus into spotless classic cars and 5 star customer service. 
+          Our mission is to make your day easier. Whether its a perfect day to go to the beach with one of our classics, 
+          or an all important wedding day which cannot go wrong. Don't worry we have you covered. 
+          With over 500 personal bookings we have the task force and experience needed to make your dreams reality.
+        </p>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container about-content">
+      <img src="Images/bottom_main.jpg" alt="Classic interior">
+
+      <div class="about-text">
+        <h2>Driven by History</h2>
+        <p>
+          We specialise in sourcing, restoring and hiring exceptional classic vehicles with character and heritage.
+        </p>
+        <a href="backbone/testimonials.php" class="btn btn-primary">Testimonials</a>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <p> 2026 Old Timer Motors Co. — Classic Car Hire & Sales</p>
+    </div>
+  </footer>
